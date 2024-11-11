@@ -1,11 +1,11 @@
-/* General body styles */
+
 .body-class {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header styles */
+
 .header-class {
     background-color: #005f73;
     color: white;
@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-/* Navigation bar styles */
+
 .nav-class a {
     color: white;
     text-decoration: none;
