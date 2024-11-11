@@ -1,8 +1,86 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="List of charities on HelpHub">
-    <title>HelpHub - Charities</title>
-    <!-- Link to the external CSS file -->
-    <link rel="stylesheet" href="styles.css">
-</head>
+/* General body styles */
+.body-class {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+.header-class {
+    background-color: #005f73;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation bar styles */
+.nav-class a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.nav-class a:hover {
+    background-color: #003d47;
+}
+
+/* Hero section styles */
+.hero-section-class {
+    background-color: #009688;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.image-class {
+    border: 5px solid #004d40;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Section title styles */
+.section-title-class {
+    color: #00796b;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Text and paragraph styles */
+.text-class {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Form and button styles */
+.form-class input[type="text"],
+.form-class input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-class button {
+    background-color: #00796b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-class button:hover {
+    background-color: #004d40;
+}
+
+/* Footer styles */
+.footer-class {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
