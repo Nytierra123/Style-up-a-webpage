@@ -1,86 +1,64 @@
- /* General body styles */
-.body-class {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+<style>
+  body.body-class {
+   background-color: #00ffff;
+  }
+  header.header-class{
+   background-color: #7fffd4;
+   color: white;
+  }
+  nav.nav-class a.nav-link-class:hover{
+   background-color: #8a2be2;
+   color:red;
+  }
+  section.hero-section-class {
+   background-color: #00008b;
+   color: #9932cc;
+  }
+  .section-title-class{
+   color: #cd5c5c;
+    }
+  .hero-section-class img.image-class {
+   border: 10px soild #e9967a;
+   border-radius: 8px;
+   max-width: 100%;
+   heigth: auto;
+   display: block;
+   margin: 20px auto;
+  }
+  .title-class{
+   color: #ff69b4;
+  }
+  .text-class{
+   color: #ff00ff;
+  }
+  
+.form-class {
+  background-color: #f9f9f9; 
 }
 
-/* Header styles */
-.header-class {
-    background-color: #005f73;
-    color: white;
-    padding: 20px;
-    text-align: center;
+
+.input-class {
+  background-color: #fff; 
+  color: #333;
 }
 
-/* Navigation bar styles */
-.nav-class a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    margin: 0 10px;
+.input-class:focus {
+  border-color: #5cb85c;
+  outline: none; 
 }
 
-.nav-class a:hover {
-    background-color: #003d47;
+.button-class {
+  background-color: #5cb85c;
+  color: #fff; 
 }
-
-/* Hero section styles */
-.hero-section-class {
-    background-color: #009688;
-    color: white;
-    padding: 30px;
-    text-align: center;
+.button-class:hover {
+  background-color: #4cae4c; 
 }
-
-.image-class {
-    border: 5px solid #004d40;
-    border-radius: 8px;
-    max-width: 100%;
-    height: auto;
-}
-
-/* Section title styles */
-.section-title-class {
-    color: #00796b;
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-/* Text and paragraph styles */
-.text-class {
-    font-size: 1.1em;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-/* Form and button styles */
-.form-class input[type="text"],
-.form-class input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.form-class button {
-    background-color: #00796b;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.form-class button:hover {
-    background-color: #004d40;
-}
-
-/* Footer styles */
-.footer-class {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
+  .footer.class {
+   background-color: #333;
+   color:#faf0e6;
+  }
+  .footer-class .text-class{
+   color: #800000;
+  }
+ </style>
